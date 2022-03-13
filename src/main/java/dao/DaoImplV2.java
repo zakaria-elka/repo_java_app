@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 public class DaoImplV2 implements IDao {
     @Override
     public double getData() {
-        System.out.println("Version Capteur");
-        double temp = 10 * Math.cos(Math.PI / 2) + 115;
+        System.out.println("Result du Capteur:");
+        double temp = 2 * Math.cos(Math.PI / 2) + 50;
         return temp;
     }
 }
